@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light">
+
+    <TextView
+        android:id="@+id/tvAnnoUscita"
+        android:layout_width="365dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:text="TextView"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitoloSelected" />
+
+    <TextView
+        android:id="@+id/tvDurata"
+        android:layout_width="363dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvAnnoUscita" />
+
+    <TextView
+        android:id="@+id/tvGenere"
+        android:layout_width="361dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/tvDurata"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tvDurata"
+        app:layout_constraintTop_toBottomOf="@+id/tvDurata" />
+
+    <TextView
+        android:id="@+id/tvAttori"
+        android:layout_width="361dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/tvGenere"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tvGenere"
+        app:layout_constraintTop_toBottomOf="@+id/tvGenere" />
+
+    <TextView
+        android:id="@+id/tvTrama"
+        android:layout_width="383dp"
+        android:layout_height="142dp"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/tvAttori"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tvAttori"
+        app:layout_constraintTop_toBottomOf="@+id/tvAttori" />
+
+    <TextView
+        android:id="@+id/tvTitoloSelected"
+        android:layout_width="357dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="28dp"
+        android:text="TextView"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnPreferiti"
+        android:layout_width="219dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#0A0A0A"
+        android:text="Aggiungi ai preferiti"
+        android:textColor="#DAC509"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.442"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTrama" />
+</androidx.constraintlayout.widget.ConstraintLayout>

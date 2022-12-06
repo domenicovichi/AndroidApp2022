@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.32760416666666664" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.3104166666666667" />
+        <entry key="app/src/main/res/layout/container_rv_home.xml" value="0.32760416666666664" />
+        <entry key="app/src/main/res/layout/fragment_favorite.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_film.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_login.xml" value="0.32760416666666664" />
+        <entry key="app/src/main/res/layout/fragment_register.xml" value="0.2688034188034188" />
+        <entry key="app/src/main/res/layout/fragment_search.xml" value="0.2688034188034188" />
+        <entry key="app/src/main/res/layout/row_film.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/row_filmFav.xml" value="0.2688034188034188" />
+        <entry key="app/src/main/res/layout/row_filmSearch.xml" value="0.2688034188034188" />
+        <entry key="app/src/main/res/layout/row_film_fav.xml" value="0.67" />
+        <entry key="app/src/main/res/layout/row_film_search.xml" value="0.3627254509018036" />
+        <entry key="app/src/main/res/layout/row_filmselected.xml" value="0.5" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

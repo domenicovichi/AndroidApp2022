@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/holo_orange_light">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:elevation="8dp"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="122dp"
+            android:background="?android:attr/colorPressedHighlight">
+
+            <TextView
+                android:id="@+id/tvTitolo_search"
+                android:layout_width="194dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="3dp"
+                android:fontFamily="@font/autour_one"
+                android:gravity="center"
+                android:text="TextView"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvAnno_search"
+                android:layout_width="172dp"
+                android:layout_height="29dp"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/alata"
+                android:gravity="center"
+                android:text="TextView"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="@+id/tvTitolo_search"
+                app:layout_constraintStart_toStartOf="@+id/tvTitolo_search"
+                app:layout_constraintTop_toBottomOf="@+id/tvTitolo_search" />
+
+            <TextView
+                android:id="@+id/tvGenere_search"
+                android:layout_width="170dp"
+                android:layout_height="29dp"
+                android:layout_marginStart="8dp"
+                android:fontFamily="@font/alata"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                android:text="TextView"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="@+id/tvAnno_search"
+                app:layout_constraintStart_toEndOf="@+id/tvAnno_search"
+                app:layout_constraintTop_toBottomOf="@+id/tvTitolo_search"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <TextView
+                android:id="@+id/tvDurata_search"
+                android:layout_width="174dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="6dp"
+                android:fontFamily="@font/alata"
+                android:gravity="center"
+                android:text="TextView"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="@+id/tvAnno_search"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/tvAnno_search"
+                app:layout_constraintTop_toBottomOf="@+id/tvAnno_search" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
